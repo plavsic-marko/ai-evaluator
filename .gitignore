@@ -1,0 +1,55 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.env
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Jupyter Notebook checkpoints (ali NE same notebook fajlove)
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Environment variables file
+.env
+
+# API keys and secrets
+*.pem
+api_keys.py
+secrets.py
+secret_keys.py
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Output files
+outputs/
+results/
+evaluation_results/
+*.json
+*.csv
+
+# Test files that shouldn't be committed
+test_data/
+temp/
+
+# Miscellaneous
+notes/
+TODOs.md
